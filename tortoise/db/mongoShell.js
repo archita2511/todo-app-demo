@@ -7,7 +7,7 @@ class MongoShell {
     this._meta = 'metaStore';
     this._syncFromStore = 'syncFromStore';
     this._syncToStore = 'syncToStore';
-    this._url = 'mongodb://localhost:27017';
+    this._url = 'mongodb+srv://admin-list:6rNMKHjObaNkUhvp@cluster0.lhcpo.mongodb.net/offline-app?retryWrites=true&w=majority';
     this._dbName = 'tortoiseDB';
 
     let db;

@@ -7,13 +7,11 @@ var Todo = mongoose.model('Todo', {
     minlength: 1,
     trim: true
   },
-  isCompleted: {
-    type: Boolean,
-    default: false
+  phNumber: {
+    type: String,
   },
-  height: {
+  age: {
     type: Number,
-    default: 60
   }
 });
 
